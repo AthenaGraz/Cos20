@@ -3,7 +3,7 @@ title: "Static or dynamic web pages on the net: What the differences are and wha
 date: 2021-02-16T20:23:54+01:00
 draft: true
 ---
-![Image coputer](/business-1839876_1920.jpg)
+![Image coputer](/Cos20/business-1839876_1920.jpg)
 
 In his lecture, Takashi Linzbichler shows the advantages of programmes like Hugo. Why you save time during development and for which group of people they are ideal.
 
@@ -66,7 +66,7 @@ There is no database, so the input consists of only files and folders that run t
 The output is a static site (HTML) that is taken by the developer and deployed to the server.
 When the website is requested by a user, the server matches those files and sends it back to the user.
 
-![Image cms](/cms-265127_1920.jpg)
+![Image cms](/Cos20/cms-265127_1920.jpg)
 
 ## 1.7 Use cases for Static Website Generators?
 Static site generators are ideal for developers who want a small website and build it themselves. Regarding Content Strategy students, static website generators could be used to create static, personalized portfolio or blog websites.

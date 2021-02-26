@@ -3,7 +3,7 @@ title: "HTML for Content Strategists: Why it is important to communicate with pr
 date: 2021-02-16T20:23:54+01:00
 draft: true
 ---
-![Image women](/women-1209678_1920.jpg)
+![Image women](/Cos20/women-1209678_1920.jpg)
 
 Heinz Wittenbrink suggests in his lecture to get to grips with the basics of coding - content people need to understand how programming works at its core.
 
@@ -31,7 +31,7 @@ Today, the web is full of guides that quickly teach you HTML. The page [develpop
 
 Why structuring the text is important is explained [on another page there](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals): Users looking at a web page tend to scan quickly to find relevant content, often just reading the headings, to begin with. If they can't see anything useful within a few seconds, they'll likely get frustrated and go somewhere else.
 
-![Image seo](/seo-758264_1920.jpg)
+![Image seo](/Cos20/seo-758264_1920.jpg)
 
 
 ## Important for search engines

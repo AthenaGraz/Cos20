@@ -5,5 +5,5 @@ theme = "gohugo-theme-ananke"
 copyright = "Meike Freya Chris Rosa Sophie Athena"
 
 [Params]
-    Site_Logo = "/Favicon.png"
+    Site_Logo = "/Cos20/Favicon.png"
     featured_image = "/code-1076536_1920.jpg"
