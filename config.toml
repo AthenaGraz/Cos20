@@ -1,4 +1,9 @@
 baseURL = "http://example.org/"
-languageCode = "de-de"
-title = "My super Hugo Site | xxxx" 
+languageCode = "en-en"
+title = "theoretical background, case study and practical assignment"
 theme = "gohugo-theme-ananke"
+copyright = "Meike Freya Chris Rosa Sophie Athena"
+
+[Params]
+    Site_Logo = "/Favicon.png"
+    featured_image = "/code-1076536_1920.jpg"
