@@ -1,0 +1,33 @@
+.lecturer-posts {
+    margin: 1.5em auto 3em auto;
+    display: flex;
+    width: fit-content;
+}
+
+.lecturer-post img {
+    width: 15em;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.lecturer-post.left {
+    margin-right: 4em;
+}
+
+.lecturer-post.right {
+    margin-left: 4em;
+}
+
+.logo {
+    width: 8em;
+}
+
+.pv6-l {
+    padding-top: 2em;
+}
