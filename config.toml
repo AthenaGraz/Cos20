@@ -1,4 +1,4 @@
-baseURL = "http://athenagraz.github.io/Cos20"
+baseURL = "https://athenagraz.github.io/Cos20"
 languageCode = "en-en"
 title = "theoretical background, case study and practical assignment"
 theme = "hugo-swift-theme"
