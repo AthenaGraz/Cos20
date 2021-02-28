@@ -1,12 +1,11 @@
 baseURL = "https://athenagraz.github.io/Cos20"
 languageCode = "en-en"
 title = "theoretical background, case study and practical assignment"
-theme = "hugo-swift-theme"
+theme = "gohugo-theme-ananke"
 copyright = "Meike Freya Chris Rosa Sophie Athena"
 
 [Params]
     Site_Logo = "/Cos20/Favicon.png"
     featured_image = "/code-1076536_1920.jpg"
     favicon = "FaviconCOS20_75x75.jpg"
-    mainSections = ["posts"]
     blogDir = "posts"
