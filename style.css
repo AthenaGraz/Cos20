@@ -46,7 +46,8 @@
 }
 
 .logo {
-    width: 8em;
+    width: 5em;
+    margin: 0;
 }
 
 .pv6-l {
@@ -55,4 +56,26 @@
 
 .pb7 {
     padding-bottom: 6em;
+}
+
+.nav-brand {
+    font-family: "Metropolis";
+}
+
+.post_header {
+    background-size: contain;
+}
+
+.post_header::after {
+    background: rgba(10, 15, 30, 0.24);
+}
+
+.post_title {
+    margin-top: 170px;
+}
+
+.post_card {
+    background-color: transparent;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
