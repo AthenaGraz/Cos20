@@ -1,27 +1,48 @@
 .lecturer-posts {
     margin: 1.5em auto 3em auto;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     width: fit-content;
 }
 
 .lecturer-post img {
+    transition: width 0.3s ease,
+                left 0.3s ease,
+                top 0.3s ease;
     width: 15em;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
-.left {
+.lecturer-post img:hover {
+    width: 18em;
+    top: -0.5em;
+}
+
+.lecturer-post.left img:hover {
+    left: -0.8em;
+}
+
+.lecturer-post.right img:hover {
+    left: 0.8em;
+}
+
+/*.left {
     float: left;
 }
 
 .right {
     float: right;
-}
+}*/
 
 .lecturer-post.left {
-    margin-right: 4em;
+    margin-right: 2em;
 }
 
 .lecturer-post.right {
-    margin-left: 4em;
+    margin-left: 2em;
 }
 
 .logo {
