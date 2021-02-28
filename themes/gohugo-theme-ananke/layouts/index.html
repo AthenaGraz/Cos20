@@ -1,31 +1,16 @@
 {{ define "main" }}
-
-  <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
-    {{ .Content }}
-  </article>
-  {{/* Define a section to pull recent posts from. For Hugo 0.20 this will default to the section with the most number of pages. */}}
-  {{ $mainSections := .Site.Params.mainSections | default (slice "post") }}
-  {{/* Create a variable with that section to use in multiple places. */}}
-  {{ $section := where .Site.RegularPages "Section" "in" $mainSections }}
-  {{/* Check to see if the section is defined for ranging through it */}}
-  {{ $section_count := len $section }}
-  {{ if ge $section_count 1 }}
-    {{/* Derive the section name  */}}
-    {{ $section_name := index (.Site.Params.mainSections) 0 }}
-
-    <div class="pa3 pa4-ns w-100 w-70-ns center">
-      <div class="lecturer-posts">
-        <div class="lecturer-post left">
-          <a href="/Cos20/posts/takashi">
-            <img src="/Cos20/linzbichler-takashi--small_V2.png" alt="takashi" title="takashi">
-          </a>
-        </div>
-        <div class="lecturer-post right">
-          <a href="/Cos20/posts/heinz">
-            <img src="/Cos20/wittenbrink-heinz--small_V2.png" alt="heinz" title="heinz">
-          </a>
-        </div>
+  <div class="pa3 pa4-ns w-100 w-70-ns center">
+    <div class="lecturer-posts">
+      <div class="lecturer-post left">
+        <a href="/Cos20/posts/takashi">
+          <img src="/Cos20/linzbichler-takashi--small_V2.png" alt="takashi" title="takashi">
+        </a>
+      </div>
+      <div class="lecturer-post right">
+        <a href="/Cos20/posts/heinz">
+          <img src="/Cos20/wittenbrink-heinz--small_V2.png" alt="heinz" title="heinz">
+        </a>
       </div>
     </div>
-  {{ end }}
+  </div>
 {{ end }}
