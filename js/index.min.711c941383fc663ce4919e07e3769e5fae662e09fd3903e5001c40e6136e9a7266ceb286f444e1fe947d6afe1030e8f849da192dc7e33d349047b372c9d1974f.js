@@ -6,7 +6,7 @@ function fileClosure(){
   hidden = 'hidden';
 
   const doc = document.documentElement;
-  const parentURL = 'https://athenagraz.github.io/Cos20/';
+  const parentURL = 'https://athenagraz.github.io/Cos20';
   const staticman = Object.create(null);
   const translations = {
     success: {
