@@ -9,3 +9,4 @@ copyright = "Meike Freya Chris Rosa Sophie Athena"
     featured_image = "/code-1076536_1920.jpg"
     favicon = "FaviconCOS20_75x75.jpg"
     mainSections = ["posts"]
+    blogDir = "posts"
