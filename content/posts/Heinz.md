@@ -1,7 +1,6 @@
 ---
 title: "HTML for Content Strategists: Why it is important to communicate with programmers at eye level"
 date: 2021-02-16T20:23:54+01:00
-draft: true
 image: "wittenbrink-heinz--small_V2.png"
 ---
 ![Image women](/Cos20/women-1209678_1920.jpg)
