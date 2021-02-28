@@ -2,6 +2,7 @@
 title: "Static or dynamic web pages on the net: What the differences are and what advantages which system brings"
 date: 2021-02-16T20:23:54+01:00
 draft: true
+image: "linzbichler-takashi--small_V2.png"
 ---
 ![Image coputer](/Cos20/business-1839876_1920.jpg)
 
