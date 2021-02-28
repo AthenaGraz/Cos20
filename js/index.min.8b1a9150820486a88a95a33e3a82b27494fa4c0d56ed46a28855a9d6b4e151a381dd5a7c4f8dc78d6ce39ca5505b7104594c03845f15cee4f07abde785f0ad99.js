@@ -6,7 +6,7 @@ function fileClosure(){
   hidden = 'hidden';
 
   const doc = document.documentElement;
-  const parentURL = '//athenagraz.github.io/Cos20/';
+  const parentURL = 'https://athenagraz.github.io/Cos20/';
   const staticman = Object.create(null);
   const translations = {
     success: {
@@ -491,7 +491,7 @@ function fileClosure(){
   headingNodes.forEach(function(node){
     link = createEl('a');
     icon = createEl('img');
-    icon.src = '//athenagraz.github.io/Cos20/images/icons/link.svg';
+    icon.src = 'https://athenagraz.github.io/Cos20/images/icons/link.svg';
     link.className = 'link';
     link.appendChild(icon);
     id = node.getAttribute('id');
